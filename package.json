@@ -3,11 +3,9 @@
   "version": "1.0.0",
   "description": "Repositório do curso de API com Node.js, Express e Sequelize",
   "main": "server.js",
-  "type": "module",
   "scripts": {
-    "build": "tsup src",
-    "start": "node dist/server.js",
-    "dev": "tsx watch src/server.ts"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
@@ -19,10 +17,7 @@
     "sqlite3": "5.1.6"
   },
   "devDependencies": {
-    "@types/express": "^5.0.3",
     "eslint": "8.46.0",
-    "tsup": "^8.5.0",
-    "tsx": "^4.20.3",
-    "typescript": "^5.8.3"
+    "nodemon": "3.0.1"
   }
 }
